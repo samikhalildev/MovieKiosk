@@ -15,36 +15,36 @@ public class Catalogue {
 		//Database of movies
 		Genre genre = new Genre ("Comedy");
 		addGenre(genre);
-		moviesAvailable.add( new Movie ("The Internship",	 		2013, 	genre, 	10));
+		moviesAvailable.add( new Movie ("The Internship",	 	2013, 	genre, 	10));
 		moviesAvailable.add( new Movie ("Life of the Party", 		2018, 	genre, 	15));
-		moviesAvailable.add( new Movie ("Terminator 2",	 		    1991, 	genre, 	3));
+		moviesAvailable.add( new Movie ("Terminator 2",	 		1991, 	genre, 	3));
 		
 		genre = new Genre ("Action");
 		addGenre(genre);
-		moviesAvailable.add( new Movie ("Black Panther", 			2018, 	genre, 	20));
-		moviesAvailable.add( new Movie ("Show Dogs", 				2018, 	genre, 	25));
-		moviesAvailable.add( new Movie ("Raazi", 					2018, 	genre, 	21));
-		moviesAvailable.add( new Movie ("Rampage", 					2018, 	genre, 	28));
+		moviesAvailable.add( new Movie ("Black Panther", 		2018, 	genre, 	20));
+		moviesAvailable.add( new Movie ("Show Dogs", 			2018, 	genre, 	25));
+		moviesAvailable.add( new Movie ("Raazi", 			2018, 	genre, 	21));
+		moviesAvailable.add( new Movie ("Rampage", 			2018, 	genre, 	28));
 
 		
 		genre = new Genre ("Horror");
 		addGenre(genre);
-		moviesAvailable.add( new Movie ("Truth or Dare", 			2018, 	genre, 	20));
-		moviesAvailable.add( new Movie ("The Witch", 				2015, 	genre, 	10));
-		moviesAvailable.add( new Movie ("Insidious", 				2010, 	genre, 	7));
+		moviesAvailable.add( new Movie ("Truth or Dare", 		2018, 	genre, 	20));
+		moviesAvailable.add( new Movie ("The Witch", 			2015, 	genre, 	10));
+		moviesAvailable.add( new Movie ("Insidious", 			2010, 	genre, 	7));
 
 		
 		genre = new Genre ("Drama");
 		addGenre(genre);
 		moviesAvailable.add( new Movie ("The Social Network",		2010, 	genre, 	4));
-		moviesAvailable.add( new Movie ("102 Not Out",	 		    2018, 	genre, 	17));
+		moviesAvailable.add( new Movie ("102 Not Out",	 		2018, 	genre, 	17));
 
 		genre = new Genre ("Crime");
 		addGenre(genre);
 		moviesAvailable.add( new Movie ("The Fate of the Furious", 	2017, 	genre, 	35));
-		moviesAvailable.add( new Movie ("Furious 7", 				2015, 	genre, 	25));
+		moviesAvailable.add( new Movie ("Furious 7", 			2015, 	genre, 	25));
 		moviesAvailable.add( new Movie ("Fast & Furious 6", 		2013, 	genre, 	10));
-		moviesAvailable.add( new Movie ("Fast Five", 				2011, 	genre, 	6));
+		moviesAvailable.add( new Movie ("Fast Five", 			2011, 	genre, 	6));
 		moviesAvailable.add( new Movie ("Fast & Furious 4", 		2009, 	genre, 	4));
 
 	}
