@@ -1,4 +1,20 @@
-# MovieKiosk
+# Movie Kiosk – A Movie Renting System
+
+You are a Software Engineer at a Movie Rental company and you
+have been asked to write the software for their latest piece of
+technology, a fully automated movie renting system.
+
+This is one of latest strategies implemented by the company that
+aims to increase profits and makes their products more accessible
+to their customer base.
+
+However, they are struggling to find a capable programmer that can
+build a robust application that is fully functional and easy to use.
+
+This requirement is urgent, as competitor companies have heard
+the rumors of this state-of-the-art system and they have also started
+working on similar prototypes.
+
 
 ## Specification:
 
