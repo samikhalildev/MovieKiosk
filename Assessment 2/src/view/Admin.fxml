@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="controller.AdminController"
+      spacing="10" prefWidth="800.0" styleClass="root" >
+
+    
+    <HBox alignment="center_left" spacing="10">
+    <ImageView>
+        <image>
+            <Image url="@movie_icon.png"/>
+        </image>
+    </ImageView>
+    
+    <Label text="Administration Menu" styleClass="h1" />
+    </HBox>
+    
+    
+    <HBox alignment="center" spacing="10">
+        <VBox spacing="10">
+            
+            <Label text="Manage Customers:" styleClass="h2"/>
+            
+            <Button text="View All" styleClass="menuButton" onAction="#showAllCustomersWindow"/>
+            <Button text="Add" styleClass="menuButton" onAction="#addCustomerWindow"/>
+            <Button text="Remove" styleClass="menuButton" onAction="#removeCustomerWindow"/>
+        </VBox>
+        
+        <VBox spacing="10">
+            
+            <Label text="Manage Movies:" styleClass="h2"/>
+            
+            <Button text="View All" styleClass="menuButton" onAction="#showAllMoviesWindow"/>
+            <Button text="Add" styleClass="menuButton" onAction="#addMovieWindow"/>
+            <Button text="Remove" styleClass="menuButton" onAction="#removeMovieWindow"/>
+        </VBox>
+        
+    </HBox>
+    
+    
+    <VBox alignment="center">
+        <Button text="Exit" styleClass="button" fx:id="close" onAction="#handleClose"/>
+    </VBox>
+
+
+    <stylesheets>
+        <URL value="@kiosk.css"/>
+    </stylesheets>
+
+</VBox>
